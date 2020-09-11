@@ -1,0 +1,12 @@
+
+{
+  "name":  "weather app",
+  "short_name": "weather",
+  "description": "a weather report",
+  "lang": "en-US",
+  "start": "/index.html",
+  "display": "standalone",
+  "background_color": "white"
+
+}
+
