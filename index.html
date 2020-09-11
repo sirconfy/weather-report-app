@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="manifest" href="./manifest.json">
+  
+  <title>weather-app </title>
+ 
+</head>
+
+<body class="app">
+  <div class="app-wrap">
+    <header >
+      <input type="text"  autocomplete="off" class="search-box"placeholder="search for a city..." id="type">
+      <button id="btn"><i class="fa fa-search  fa-3x " ></i></button>
+    </header>
+    <main>
+      <section class="location">
+        <div class= "city">
+        </div>
+        <div class = "date">
+        </div>
+      </section>
+      <div>
+        <div id="humidity">
+        </div>
+      </div>
+  </main>
+ 
+ <script src="./app.js"></script>
+
+ <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.19.1/firebase-app.js"></script>
+
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+
+</body>
+</html>
